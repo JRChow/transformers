@@ -32,7 +32,7 @@ Quick benchmarks from the script (no other modifications):
 | Titan V | AMP | 26s | 0.8281/0.8568/0.8411 |
 | V100    | FP32 | 35s | 0.8646/0.8359/0.8464 |
 | V100    | AMP | 22s | 0.8646/0.8385/0.8411 |
-| 1080 Ti | FP32 | 55s | - | 
+| 1080 Ti | FP32 | 55s | - |
 
 Mixed precision (AMP) reduces the training time considerably for the same hardware and hyper-parameters (same batch size was used).
 
